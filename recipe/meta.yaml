@@ -1,5 +1,5 @@
 {% set name = "mcrnmf" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/source/m/mcrnmf/mcrnmf-{{ version }}.tar.gz
-  sha256: f119c760b9fc3a2847fe3005312a0d2c725c13b54da002915254ba5bc13b4c1c
+  url: https://pypi.io/packages/source/m/mcrnmf/mcrnmf-{{ version }}.tar.gz
+  sha256: 33dc5bef65d6b400c67547a7e5565088313edcb5c87d039f43619da896408766
 
 build:
   noarch: python
